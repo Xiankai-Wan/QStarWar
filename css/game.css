@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*定义场景*/
+.gamesence{
+	width: 320px;
+	height: 568px;
+	background-image: url(../img/begin.png);
+	margin: 20px auto;
+	position: relative;
+}
+/*游戏开始按钮*/
+.gamesence>button{
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	bottom: 200px;
+	left: 110px;
+	border: 1px solid red;
+	border-radius: 20px;
+	outline: none;
+}
+/*我方F22战机*/
+.gamesence>p{
+	width: 66px;
+	height: 80px;
+	position: absolute;
+	background-image: url(../img/myPlane.gif);	
+}
+/*子弹*/
+.gamesence>i{
+	display: block;
+	width: 6px;
+	height: 14px;
+	background-image: url(../img/bullet1.png);
+	position: absolute;
+	
+	
+}
